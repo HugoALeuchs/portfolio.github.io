@@ -3,8 +3,15 @@ import styles from "./page.module.css";
 import Spline from "@splinetool/react-spline";
 import { TypeAnimation } from "react-type-animation";
 import { useEffect, useState } from "react";
-import { TaggedContentCard } from "react-ui-cards";
-import ReactProgressMeter from "react-progress-meter";
+import dynamic from "next/dynamic";
+
+const TaggedContentCard = dynamic(() =>
+  import("react-ui-cards").then((module) => module.TaggedContentCard)
+);
+
+const ReactProgressMeter = dynamic(() => import("react-progress-meter"), {
+  ssr: false,
+});
 
 export default function Home() {
   const [loaded, setLoading] = useState(false);
@@ -65,7 +72,7 @@ export default function Home() {
             pixel-perfect websites
           </div>
           <h3 className={styles.companiesText}>
-            Companies that I've worked on:
+            Companies that I&apos;ve worked on:
           </h3>
           <div className={styles.portifolioGrid}>
             <TaggedContentCard
