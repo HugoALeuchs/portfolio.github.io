@@ -78,7 +78,7 @@ export default function Home() {
             <TaggedContentCard
               float
               href="https:loadsmart.com"
-              thumbnail="/images/LoadsmartHomePage.png"
+              thumbnail="https://hugoaleuchs.github.io/portfolio.github.io/images/LoadsmartHomePage.png"
               title="Loadsmart"
               description="I worked on creating new pages and maintaining old ones and also helped to migrate the website from a monolith project to a Next.js project."
               tags={[]}
@@ -87,7 +87,7 @@ export default function Home() {
             <TaggedContentCard
               float
               href="https://loadsmart.com/shipper/shipperguide/"
-              thumbnail="/images/LoadsmartShipperGuide.png"
+              thumbnail="https://hugoaleuchs.github.io/portfolio.github.io/images/LoadsmartShipperGuide.png"
               title="Loadsmart ShipperGuide"
               description="I participated in all stages of the development of this page, from design discussions to coding, helping with development decision-making."
               tags={[]}
@@ -96,7 +96,7 @@ export default function Home() {
             <TaggedContentCard
               float
               href="https://loja.bariguiseminovos.com.br/"
-              thumbnail="/images/NovoVarejo.png"
+              thumbnail="https://hugoaleuchs.github.io/portfolio.github.io/images/NovoVarejo.png"
               title="NovoVarejo E-Commerce"
               description="I helped with the development of new features for the company's E-Commerce platform, mainly using React with GraphQL."
               tags={[]}
@@ -105,7 +105,7 @@ export default function Home() {
             <TaggedContentCard
               float
               href="https://biopark.com.br"
-              thumbnail="/images/Biopark.png"
+              thumbnail="https://hugoaleuchs.github.io/portfolio.github.io/images/Biopark.png"
               title="Biopark"
               description="I led the website development, participating in decision-making together with the marketing team and the board to make this website from scratch."
               tags={[]}
