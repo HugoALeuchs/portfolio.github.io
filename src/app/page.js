@@ -31,7 +31,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className={styles.main}>
+    <main className={loaded ? styles.main : styles.loading}>
       {loaded ? (
         <>
           <p className={styles.contact}>
@@ -46,6 +46,15 @@ export default function Home() {
               style={{ color: "black" }}
             >
               +55 (44) 9 9889-6630
+            </a>
+            <br />
+            <a
+              href="https://hugoaleuchs.github.io/portfolio.github.io/CN_EN_23.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "black" }}
+            >
+              Resume
             </a>
           </p>
           <TypeAnimation

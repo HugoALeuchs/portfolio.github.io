@@ -5,6 +5,13 @@
   min-height: 280vh;
 }
 
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
 .progress {
   position: absolute;
   left: 50%;
@@ -89,20 +96,25 @@
   z-index: 500;
   font-size: 3em;
   /* color: black; */
-
-  @media (max-width: 1250px) {
+}
+@media (max-width: 1550px) {
+  .companiesText {
     font-size: 2em;
-    left: 16%;
+    left: 26%;
   }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  .companiesText {
     font-size: 1.5em;
     bottom: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
+}
 
-  @media (max-width: 375px) {
+@media (max-width: 375px) {
+  .companiesText {
     width: 297px;
     font-size: 1.2em;
   }
@@ -115,12 +127,16 @@
   z-index: 500;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
 
-  @media (max-width: 1250px) {
-    left: 15%;
+@media (max-width: 1550px) {
+  .portifolioGrid {
+    left: 25%;
   }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  .portifolioGrid {
     bottom: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -128,8 +144,8 @@
   }
 }
 
-.portifolioGrid a {
-  @media (max-width: 375px) {
+@media (max-width: 375px) {
+  .portifolioGrid a {
     max-width: 300px;
   }
 }
