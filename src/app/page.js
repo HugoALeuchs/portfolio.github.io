@@ -86,7 +86,7 @@ export default function Home() {
           <div className={styles.portifolioGrid}>
             <TaggedContentCard
               float
-              href="https:loadsmart.com"
+              href="https://loadsmart.com"
               thumbnail="https://hugoaleuchs.github.io/portfolio.github.io/images/LoadsmartHomePage.png"
               title="Loadsmart"
               description="I worked on creating new pages and maintaining old ones and also helped to migrate the website from a monolith project to a Next.js project."
