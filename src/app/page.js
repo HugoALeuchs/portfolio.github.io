@@ -59,32 +59,32 @@ const EXPERIENCE = [
 
 const WORK = [
   {
-    src: "/images/RebindClassics.png",
+    src: "images/RebindClassics.png",
     company: "Rebind Classics",
     href: "https://classics.rebindapp.com",
   },
   {
-    src: "/images/RebindBible.png",
+    src: "images/RebindBible.png",
     company: "Rebind Study Bible",
     href: "https://bible.rebindapp.com",
   },
   {
-    src: "/images/LoadsmartHomePage.png",
+    src: "images/LoadsmartHomePage.png",
     company: "Loadsmart",
     href: "https://loadsmart.com",
   },
   {
-    src: "/images/LoadsmartShipperGuide.png",
+    src: "images/LoadsmartShipperGuide.png",
     company: "Loadsmart ShipperGuide",
     href: "https://loadsmart.com/shipper/shipperguide/",
   },
   {
-    src: "/images/NovoVarejo.png",
+    src: "images/NovoVarejo.png",
     company: "Novovarejo E-Commerce",
     href: "https://loja.bariguiseminovos.com.br/",
   },
   {
-    src: "/images/Biopark.png",
+    src: "images/Biopark.png",
     company: "Biopark",
     href: "https://biopark.com.br",
   },
@@ -311,7 +311,7 @@ export default function Home() {
                 View my work
               </button>
               <a
-                href="/Hugo_Leuchs_Frontend_Engineer_Resume.pdf"
+                href="Hugo_Leuchs_Frontend_Engineer_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.btnSecondary}
